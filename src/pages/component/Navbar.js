@@ -57,18 +57,18 @@ export default function Navbar() {
           {" "}
           Accueil{" "}
         </Link>{" "}
-        <Link href="pages/page-info" className={isActive("/pages/page-info")}>
+        <Link href="/pages/page-info" className={isActive("/pages/page-info")}>
           {" "}
           Infos{" "}
         </Link>{" "}
         <Link
-          href="pages/page-project"
+          href="/pages/page-project"
           className={isActive("pages/page-project")}
         >
           {" "}
           Projets{" "}
         </Link>{" "}
-        <Link href="pages/page-contact"> Contact </Link>{" "}
+        <Link href="/pages/page-contact"> Contact </Link>{" "}
       </nav>
     </div>
   );
