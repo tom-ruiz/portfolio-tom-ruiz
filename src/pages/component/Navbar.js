@@ -44,7 +44,7 @@ export default function Navbar() {
         <FontAwesomeIcon icon={faBars} />
       </button>
       <nav className={`${isOpen["menu"] ? "menuOpen" : ""}`}>
-        <Link href="/portfolio-tom">
+        <Link href="/">
           {" "}
           <Image src={logo} alt="logo" width={46} height={56} />{" "}
         </Link>{" "}

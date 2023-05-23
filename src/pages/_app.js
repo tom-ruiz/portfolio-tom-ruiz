@@ -1,5 +1,4 @@
 import '@/styles/globals.scss'
-import "aos/dist/aos.css";
 import "@fortawesome/fontawesome-svg-core/styles.css";
 import {
   config
