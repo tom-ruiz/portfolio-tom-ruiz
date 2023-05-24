@@ -67,7 +67,7 @@ export default function PageInfo() {
           data-aos="fade-up"
           data-aos-duration="1000"
         >
-          <Image src={vangogh} alt="vangogh" />
+          <Image src={vangogh} alt="vangogh" className="vangogh" />
           <p data-aos="fade-up" data-aos-duration="1000">
             J&apos;aime l&apos;art sous toutes ses formes. J&apos;apprécie
             l&apos;art classique ainsi que l&apos;art contemporain, et je

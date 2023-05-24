@@ -4,10 +4,11 @@
   display: flex;
   flex-direction: column;
   gap: 20px;
-  
+
 }
+
 @media screen and (max-width: 768px) {
-  .main{
+  .main {
     padding: 0 10% 10% 10%;
   }
 }
@@ -28,6 +29,13 @@
   font-size: 36px;
   font-weight: 400;
   text-align: justify;
+}
+
+@media screen and (max-width: 768px) {
+  .main p {
+    font-size: 25px;
+  }
+
 }
 
 .main p:last-child:not(.content p) {
@@ -186,13 +194,6 @@
 
 }
 
-@media screen and (max-width: 768px) {
-  .content {
-    flex-direction: column-reverse;
-
-  }
-}
-
 
 .content p {
   font-size: 36px;
@@ -200,13 +201,28 @@
   text-align: justify;
 }
 
+@media screen and (max-width: 768px) {
+  .content {
+    flex-direction: column-reverse;
+
+  }
+
+  .content p {
+    font-size: 25px;
+  }
+}
+
 .content img {
   width: 30%;
   object-fit: contain;
 }
 
-
 @media screen and (max-width: 768px) {
+  .vangogh {
+    padding: 0;
+    width: 90%;
+  }
+
   .guitare {
     transform: scaleX(-1) rotate(270deg);
 

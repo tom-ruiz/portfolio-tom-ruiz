@@ -31,7 +31,7 @@ export default function Home() {
           <div className="wrapper">
             <ul className="dynamic-txts">
               <li>
-                <span>🖥 Développeur</span>
+                <span>🖥 Dev web</span>
               </li>
               <li>
                 <span>🎸 Musicien</span>

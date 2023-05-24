@@ -30,6 +30,9 @@ h2 {
 h3 {
   font-weight: 500;
   color: $color-blue-sry;
+  @media screen and (min-width: 768px) {
+    font-size: $font-title-sm;
+  }
 }
 
 h4 {
@@ -40,6 +43,9 @@ h4 {
 p {
   font-weight: 300;
   font-size: 20px;
+  @media screen and (max-width: 768px) {
+    font-size: $font-p-sm;
+  }
 }
 
 .navmain {
