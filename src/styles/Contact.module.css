@@ -21,3 +21,13 @@
     font-size: 34px;
     font-weight: 400;
 }
+
+@media screen and (max-width: 768px) {
+    .contact p {
+        font-size: 25px;
+    }
+
+    .contact h1 {
+        font-size: 35px;
+    }
+}
