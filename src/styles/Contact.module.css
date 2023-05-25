@@ -23,6 +23,9 @@
 }
 
 @media screen and (max-width: 768px) {
+    .contact a {
+        font-size: 25px;
+    }
     .contact p {
         font-size: 25px;
     }

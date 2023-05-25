@@ -12,7 +12,7 @@
     padding: 0 10% 10% 10%;
   }
 
-  .main h3{
+  .main h3 {
     font-size: 35px;
   }
 }
@@ -59,7 +59,6 @@
 .cv {
   background-color: #3D94B2;
   color: #FFFCF2;
-  height: 105vh;
   padding: 3% 6% 6% 6%;
   display: flex;
   gap: 5%;

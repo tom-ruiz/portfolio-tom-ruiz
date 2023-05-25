@@ -136,7 +136,7 @@ export default function PageInfo() {
                   <FontAwesomeIcon icon={faCode} />
                 </div>
                 <div className={styles.text}>
-                  <h4>React.JS</h4>
+                  <h4>React.Js / Next.Js</h4>
                   <p>🌕🌕🌕🌑🌑</p>
                 </div>
               </div>
@@ -147,7 +147,7 @@ export default function PageInfo() {
                   <FontAwesomeIcon icon={faPaintBrush} />
                 </div>
                 <div className={styles.text}>
-                  <h4>UI/UX</h4>
+                  <h4>UX Design / Figma</h4>
                   <p>🌕🌕🌕🌑🌑</p>
                 </div>
               </div>
@@ -160,6 +160,17 @@ export default function PageInfo() {
                 <div className={styles.text}>
                   <h4>.NET (C#)</h4>
                   <p>🌕🌕🌗🌑🌑</p>
+                </div>
+              </div>
+            </div>
+            <div className={styles.box}>
+              <div className={styles.content}>
+                <div className={styles.icon}>
+                  <FontAwesomeIcon icon={faCode} />
+                </div>
+                <div className={styles.text}>
+                  <h4>Git (Hub/Lab)</h4>
+                  <p>🌕🌕🌕🌕🌑</p>
                 </div>
               </div>
             </div>

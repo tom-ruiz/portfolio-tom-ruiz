@@ -18,7 +18,7 @@ export default function PageInfo() {
         <h1>
           <FontAwesomeIcon icon={faPhone} /> Numéro
         </h1>
-        <p>0620417413</p>
+        <p>06.20.41.74.13</p>
       </section>
       <Footer />
     </>
