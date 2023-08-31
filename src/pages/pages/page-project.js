@@ -6,6 +6,8 @@ import styles from "@/styles/Project.module.css";
 import plandevens from "../../assets/project/plandevens.png";
 import beu from "../../assets/project/beu.png";
 import portoflio from "../../assets/project/portfolio.png";
+import design from "../../assets/project/design.png";
+
 import Link from "next/link";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowsRotate } from "@fortawesome/free-solid-svg-icons";
@@ -108,6 +110,34 @@ export default function PageInfo() {
                       <p>React / Next.JS / Sass</p>
                       <Link target="_blank" href="/">
                         https://tomruiz.fr
+                      </Link>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <h2>Projets design</h2>
+                <div className={styles.flipCard}>
+                  <button
+                    className={styles.turnButton}
+                    onClick={() => handleRotate("design")}
+                  >
+                    <FontAwesomeIcon icon={faArrowsRotate} />
+                  </button>
+                  <div
+                    className={`${styles.flipCardInner} ${
+                      isRotated["design"] ? styles.rotate : ""
+                    }`}
+                    id="card"
+                  >
+                    <div className={styles.flipCardFront}>
+                      <Image src={design} alt="screenshot du site" />
+                    </div>
+                    <div className={styles.flipCardBack}>
+                      <h1>Réalisé seul</h1>
+                      <p>Figma / Photoshop</p>
+                      <Link target="_blank" href="https://github.com/tom-ruiz/portfolio-tom-ruiz/blob/main/DesignProject.md">
+                      lien de la documentation
                       </Link>
                     </div>
                   </div>
