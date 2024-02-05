@@ -7,6 +7,7 @@ import plandevens from "../../assets/project/plandevens.png";
 import beu from "../../assets/project/beu.png";
 import portoflio from "../../assets/project/portfolio.png";
 import design from "../../assets/project/design.png";
+import klonis from "../../assets/project/klonishome.png";
 
 import Link from "next/link";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -110,6 +111,34 @@ export default function PageInfo() {
                       <p>React / Next.JS / Sass</p>
                       <Link target="_blank" href="/">
                         https://tomruiz.fr
+                      </Link>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <h2>Klonis</h2>
+                <div className={styles.flipCard}>
+                  <button
+                    className={styles.turnButton}
+                    onClick={() => handleRotate("klonis")}
+                  >
+                    <FontAwesomeIcon icon={faArrowsRotate} />
+                  </button>
+                  <div
+                    className={`${styles.flipCardInner} ${
+                      isRotated["klonis"] ? styles.rotate : ""
+                    }`}
+                    id="card"
+                  >
+                    <div className={styles.flipCardFront}>
+                      <Image src={klonis} alt="screenshot du site" />
+                    </div>
+                    <div className={styles.flipCardBack}>
+                      <h1>Front réalisé</h1>
+                      <p>React / Next.JS / Sass</p>
+                      <Link target="_blank" href="https://klonis.vercel.app">
+                      https://klonis.vercel.app
                       </Link>
                     </div>
                   </div>
