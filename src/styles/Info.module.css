@@ -1,10 +1,18 @@
 .main {
   height: fit-content;
-  padding: 0 6% 6% 6%;
+  padding: 0 10% 6% 10%;
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 30px;
 
+}
+
+.main img {
+  object-fit: contain;
+  width: 30%;
+  height: auto;
+  border-radius: 8px;
+  margin: 5% 0 5% 0;
 }
 
 @media screen and (max-width: 768px) {
@@ -21,6 +29,7 @@
   font-size: 58px;
   font-weight: 700;
   margin-top: 1em;
+  text-align: center;
 }
 
 @media screen and (max-width: 768px) {
@@ -30,16 +39,22 @@
 }
 
 .main p {
-  font-size: 36px;
+  font-size: 28px;
   font-weight: 400;
-  text-align: justify;
+  text-align: center;
 }
 
 @media screen and (max-width: 768px) {
   .main p {
-    font-size: 25px;
+    font-size: 20px;
   }
 
+}
+
+.main p span {
+  font-weight: 700;
+  color: #DF8181;
+  background-color: #FFFCF2;
 }
 
 .main p:last-child:not(.content p) {
@@ -47,14 +62,13 @@
   text-align: center;
   font-weight: 300;
   font-size: 28px;
-  color: #F0865E;
+  color: #0F5971;
 }
 
-.main span {
-  background-color: #3D94B2;
-  color: #FFFCF2;
-  padding: 0 5px;
+.main p:last-child:not(.content p) span {
+  color: black;
 }
+
 
 .cv {
   background-color: #3D94B2;
@@ -130,7 +144,7 @@
   border-radius: 8px;
   cursor: pointer;
   box-shadow: 10px 10px 15px rgba(59, 38, 38, 0.25);
-  color: #F0865E;
+  color: #DF8181;
 }
 
 .box::before {
@@ -140,7 +154,7 @@
   left: 0;
   width: 6px;
   height: 100%;
-  background: #F0865E;
+  background: #DF8181;
   transition: 0.5s ease-in-out;
 }
 
@@ -165,7 +179,7 @@
   justify-content: center;
   align-items: center;
   font-size: 1.5em;
-  color: #F0865E;
+  color: #DF8181;
   transition: 0.5s ease-in-out;
 }
 
@@ -175,7 +189,7 @@
 
 .box .content .text h4 {
   font-weight: 500;
-  color: #F0865E;
+  color: #DF8181;
   transition: 0.5s ease-in-out;
 }
 
@@ -216,7 +230,7 @@
 }
 
 .content img {
-  width: 30%;
+  width: 10%;
   object-fit: contain;
 }
 
@@ -235,5 +249,64 @@
     height: fit-content;
     padding: 10% 0;
 
+  }
+}
+
+.wrapper {
+  width: 100%;
+  padding-top: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.wrapper .dynamictxts {
+  height: 90px;
+  line-height: 90px;
+  overflow: hidden;
+}
+
+.dynamictxts li {
+  list-style: none;
+  color: #DF8181;
+  font-size: 60px;
+  position: relative;
+  top: 0;
+  animation: slide 12s steps(4) infinite;
+}
+
+@keyframes slide {
+  100% {
+    top: -360px;
+  }
+}
+
+.dynamictxts li span {
+  position: relative;
+  margin: 5px 0;
+  line-height: 90px;
+  color: #0F5971;
+  user-select: none;
+}
+
+.dynamictxts li span::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: #FFFCF2;
+  border-left: 2px solid #0F5971;
+  animation: typing 3s steps(10) infinite;
+}
+
+@keyframes typing {
+
+  40%,
+  60% {
+    left: calc(100% + 30px);
+  }
+
+  100% {
+    left: 0;
   }
 }

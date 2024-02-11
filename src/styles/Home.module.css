@@ -19,15 +19,31 @@
 
 }
 
-.home{
+.home {
   padding: 3% 6%;
   display: flex;
   gap: 3em;
-  flex-direction: column;
-  align-items: flex-end;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-grow: 2;
+
 }
 
-.home h1{
-  font-size: 5rem;
-  width: 100%;
+.name {
+  display: flex;
+  flex-direction: column;
+  gap: 11px;
+
+}
+
+.prenom {
+  display: flex;
+  gap: 11px;
+}
+
+.nom {
+  display: flex;
+  gap: 11px;
 }

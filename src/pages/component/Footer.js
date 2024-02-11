@@ -1,6 +1,5 @@
 import Link from "next/link";
-import Image from "next/image";
-import logo from "../../assets/logo.svg";
+
 export default function Footer() {
   return (
     <div className="footer">
