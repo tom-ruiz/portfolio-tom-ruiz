@@ -47,3 +47,8 @@
   display: flex;
   gap: 11px;
 }
+
+.descriptionP{
+  font-size: 30px;
+  text-align: center;
+}

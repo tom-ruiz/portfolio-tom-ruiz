@@ -122,11 +122,12 @@ nav {
   border-bottom: 1px solid $color-blue-sry;
 }
 
+
 .navLogo .bar {
   transition: fill .3s;
 }
 
-.navLogo:hover .bar{
+.navLogo:hover .bar {
   fill: $color-orange;
 }
 
@@ -142,11 +143,17 @@ nav a {
 
 nav a:first-child {
   margin-right: auto;
+  transition: transform 1s;
 
   @media screen and (max-width: 768px) {
     display: none;
   }
 }
+
+nav a:first-child:hover {
+  transform: rotate(360deg);
+}
+
 
 nav a:not(:first-child) {
   transition: padding-bottom 0.2s;
@@ -216,122 +223,3 @@ nav a:last-child:active {
   width: 100%;
   height: 100%;
 }
-
-.home p {
-  font-size: 30px;
-}
-
-
-
-// .content {
-//   position: absolute;
-//   top: 50%;
-//   left: 19%;
-//   transform: translate(-50%, -50%);
-//   height: 160px;
-//   overflow: hidden;
-//   font-family: 'Lato', sans-serif;
-//   font-size: 35px;
-//   line-height: 40px;
-//   color: #ecf0f1;
-
-//   &__container {
-//     font-weight: 600;
-//     overflow: hidden;
-//     height: 40px;
-//     padding: 0 40px;
-
-//     &:before {
-//       content: '[';
-//       left: 0;
-//     }
-
-//     &:after {
-//       content: ']';
-//       position: absolute;
-//       right: 0;
-//     }
-
-//     &:after,
-//     &:before {
-//       position: absolute;
-//       top: 0;
-
-//       color: $color-grey-dark;
-//       font-size: 42px;
-//       line-height: 40px;
-
-//       -webkit-animation-name: opacity;
-//       -webkit-animation-duration: 1s;
-//       -webkit-animation-iteration-count: infinite;
-//       animation-name: opacity;
-//       animation-duration: 1s;
-//       animation-iteration-count: infinite;
-//     }
-
-//     &__text {
-//       display: inline;
-//       float: left;
-//       margin: 0;
-//     }
-
-//     &__list {
-//       margin-top: 0;
-//       text-align: left;
-//       list-style: none;
-//       -webkit-animation-name: change;
-//       -webkit-animation-duration: 8s;
-//       -webkit-animation-iteration-count: infinite;
-//       animation-name: change;
-//       animation-duration: 8s;
-//       animation-iteration-count: infinite;
-
-//       &__item {
-//         line-height: 40px;
-//         margin: 0;
-//         color: $color-blue-sry;
-//         font-weight: 400;
-//       }
-//     }
-//   }
-// }
-
-// @keyframes opacity {
-
-//   0%,
-//   100% {
-//     opacity: 0;
-//   }
-
-//   50% {
-//     opacity: 1;
-//   }
-// }
-
-// @keyframes change {
-
-//   0%,
-//   12.66%,
-//   100% {
-//     transform: translate3d(0, 0, 0);
-//   }
-
-//   16.66%,
-//   29.32%,
-//   83.3%,
-//   95.96% {
-//     transform: translate3d(0, -25%, 0);
-//   }
-
-//   33.32%,
-//   45.98% {
-//     transform: translate3d(0, -50%, 0);
-//   }
-
-//   49.98%,
-//   62.64%,
-//   66.64%,
-//   79.3% {
-//     transform: translate3d(0, -75%, 0);
-//   }
-// }

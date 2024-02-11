@@ -170,6 +170,15 @@ export default function Home() {
               />
             </svg>
           </div>
+          <p
+            className={styles.descriptionP}
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-delay="2000"
+          >
+            {" "}
+            Développeur Front-End & Intégrateur Web
+          </p>
         </section>
         <Footer />
       </main>

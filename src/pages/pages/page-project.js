@@ -27,7 +27,6 @@ export default function PageInfo() {
     <>
       <Navbar />
       <section className={styles.project}>
-        <h3>Mes projets</h3>
         <div className={styles.main}>
           <div className={styles.wrapper}>
             <ul className={`${styles.flex} ${styles.cards}`}>
@@ -138,7 +137,7 @@ export default function PageInfo() {
                       <h1>Front réalisé</h1>
                       <p>React / Next.JS / Sass</p>
                       <Link target="_blank" href="https://klonis.vercel.app">
-                      https://klonis.vercel.app
+                        https://klonis.vercel.app
                       </Link>
                     </div>
                   </div>
@@ -165,8 +164,11 @@ export default function PageInfo() {
                     <div className={styles.flipCardBack}>
                       <h1>Réalisé seul</h1>
                       <p>Figma / Photoshop</p>
-                      <Link target="_blank" href="https://github.com/tom-ruiz/portfolio-tom-ruiz/blob/main/DesignProject.md">
-                      lien de la documentation
+                      <Link
+                        target="_blank"
+                        href="https://github.com/tom-ruiz/portfolio-tom-ruiz/blob/main/DesignProject.md"
+                      >
+                        lien de la documentation
                       </Link>
                     </div>
                   </div>

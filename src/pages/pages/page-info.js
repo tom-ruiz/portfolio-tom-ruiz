@@ -40,7 +40,7 @@ export default function PageInfo() {
           <Image data-aos="flip-up" src={tete} alt="profilepic" />
           <br />
           Depuis mon enfance, j'ai été passionné par l'informatique et j'ai
-          rapidement commencé à apprendre à coder. Ma spécialité réside dans la
+          rapidement commencé à apprendre à coder. Je suis spécialisé dans la {" "}
           <span>création de sites web</span>, avec une expertise particulière
           dans le <span>développement d'interfaces utilisateur</span> intuitives
           et esthétiques (UI/UX).
@@ -52,7 +52,7 @@ export default function PageInfo() {
           envergure.
           <br /> Mon objectif est d'apporter ma créativité et mon expertise
           technique pour <span>renforcer votre visibilité</span> et offrir des
-          <span>expériences utilisateur exceptionnelles.</span> En plus de ma
+          {" "}<span>expériences utilisateur exceptionnelles.</span> En plus de ma
           carrière, je suis passionné par la musique, l'astronomie et l'art. Je
           suis un professionnel dynamique capable de relever les défis de vos
           projets.
@@ -68,7 +68,7 @@ export default function PageInfo() {
           Si vous cherchez quelqu&apos;un de{" "}
           <span data-aos="flip-up">professionnel</span>,{" "}
           <span data-aos="flip-up">passionné</span> et{" "}
-          <span data-aos="flip-up">compétent</span> pour vos projets de
+          <span data-aos="flip-up">polyvalent</span> pour vos projets de
           développement web et d&apos;intégration web, ne cherchez pas plus loin
           que moi ! <br /> 🤘
         </p>
