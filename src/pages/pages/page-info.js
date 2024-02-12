@@ -20,16 +20,16 @@ export default function PageInfo() {
         <div className={styles.wrapper}>
           <ul className={styles.dynamictxts}>
             <li>
-              <span>🖥 Dev web</span>
+              <span>Dev web</span>
             </li>
             <li>
-              <span>🎸 Musicien</span>
+              <span>Musicien</span>
             </li>
             <li>
-              <span>🎨 Artiste</span>
+              <span>Artiste</span>
             </li>
             <li>
-              <span>🐳 Ecologiste</span>
+              <span>Ecologiste</span>
             </li>
           </ul>
         </div>
@@ -173,7 +173,7 @@ export default function PageInfo() {
               <div className={styles.content}>
                 <div className={styles.icon}>i</div>
                 <div className={styles.text}>
-                  <h4>Domaine plan des devens</h4>
+                  <h4>Plan des devens</h4>
                   <p>6 mois (1 projet)</p>
                 </div>
               </div>

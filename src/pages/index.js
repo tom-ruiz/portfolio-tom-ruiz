@@ -139,6 +139,7 @@ export default function Home() {
               height="163"
               fill="currentColor"
               viewBox="0 0 29 163"
+              className={styles.letterI}
             >
               <path fill="#000" d="M0 163V40h29v123z" />
               <path
@@ -174,7 +175,7 @@ export default function Home() {
             className={styles.descriptionP}
             data-aos="fade-up"
             data-aos-duration="1000"
-            data-aos-delay="2000"
+            data-aos-delay="1500"
           >
             {" "}
             Développeur Front-End & Intégrateur Web

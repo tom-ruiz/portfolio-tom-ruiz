@@ -16,6 +16,10 @@
 }
 
 @media screen and (max-width: 768px) {
+  .main img {
+    width: 100%;
+  }
+
   .main {
     padding: 0 10% 10% 10%;
   }
