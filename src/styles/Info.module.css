@@ -69,6 +69,14 @@
   color: #0F5971;
 }
 
+@media screen and (max-width: 768px) {
+  .main p:last-child:not(.content p) {
+    margin-top: 0;
+    font-size: 20px;
+  }
+}
+
+
 .main p:last-child:not(.content p) span {
   color: black;
 }
@@ -146,9 +154,9 @@
   height: 75px;
   background: #fff;
   border-radius: 8px;
-  cursor: pointer;
   box-shadow: 10px 10px 15px rgba(59, 38, 38, 0.25);
   color: #DF8181;
+  user-select: none;
 }
 
 .box::before {
